@@ -1,0 +1,110 @@
+{
+    "projects": {
+        "63E37ADA-2DB1-4D24-295A-7DBB3B7A2FC7": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "643B6879-09CE-3711-6938-1BE103BE7B0B",
+                "644B3A67-66B6-0D0E-32AD-6892408941DE"
+            ],
+            "name": "Network",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "643B6879-09CE-3711-6938-1BE103BE7B0B": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "663D4113-3A44-7486-4B72-1004170131E0",
+                "63E37ADA-2DB1-4D24-295A-7DBB3B7A2FC7"
+            ],
+            "dependents": [],
+            "name": "Client",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": true
+        },
+        "644B3A67-66B6-0D0E-32AD-6892408941DE": {
+            "config-debug": {
+                "additionalDependencies": ["winmm.lib"],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": ["winmm.lib"],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "63E37ADA-2DB1-4D24-295A-7DBB3B7A2FC7",
+                "663D4113-3A44-7486-4B72-1004170131E0"
+            ],
+            "dependents": [],
+            "name": "Server",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "663D4113-3A44-7486-4B72-1004170131E0": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "643B6879-09CE-3711-6938-1BE103BE7B0B",
+                "644B3A67-66B6-0D0E-32AD-6892408941DE"
+            ],
+            "name": "Gameplay",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        }
+    },
+    "projects_name_to_guid": {
+        "Client": "643B6879-09CE-3711-6938-1BE103BE7B0B",
+        "Gameplay": "663D4113-3A44-7486-4B72-1004170131E0",
+        "Network": "63E37ADA-2DB1-4D24-295A-7DBB3B7A2FC7",
+        "Server": "644B3A67-66B6-0D0E-32AD-6892408941DE"
+    },
+    "solution_guid": "23C3036C-63FB-009D-78F5-49A47D2739DA",
+    "solution_name": "TankiTanguy",
+    "startup_project": "",
+    "version": "2.0"
+}
